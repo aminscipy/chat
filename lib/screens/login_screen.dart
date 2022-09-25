@@ -73,6 +73,7 @@ class LoginScreenState extends State<LoginScreen> {
                       loading = false;
                     });
                   } catch (e) {
+                    // ignore: avoid_print
                     print(e);
                   }
                 },

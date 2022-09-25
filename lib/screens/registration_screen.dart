@@ -74,6 +74,7 @@ class RegistrationScreenState extends State<RegistrationScreen> {
                         loading = false;
                       });
                     } catch (e) {
+                      // ignore: avoid_print
                       print(e);
                     }
                   },
